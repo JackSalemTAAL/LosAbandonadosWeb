@@ -1,0 +1,38 @@
+/* General styles for the body */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('los_abandonados_title.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    font-family: 'VCR OSD Mono', sans-serif; /* Use VHS style font */
+    color: red; /* Retro-style color for text */
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Transparent background for better readability */
+    padding: 20px;
+    border: 3px solid lime;
+    border-radius: 10px;
+}
+
+/* Title styles */
+.title {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Countdown styles */
+.countdown {
+    font-size: 2rem;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px black;
+}
